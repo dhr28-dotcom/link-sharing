@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  padding: 30px;
+}
+
+.resume {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+header {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.header-left {
+  flex: 1;
+}
+
+.header-right img {
+  width: 100px;
+
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #3498db;
+}
+
+header h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.title {
+  font-size: 18px;
+  color: #555;
+}
+
+.contact {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+}
+
+.job {
+  margin-bottom: 15px;
+}
+
+.job h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.company {
+  font-weight: bold;
+  color: #444;
+}
+
+.years {
+  font-style: italic;
+  color: #777;
+}
+
+ul {
+  list-style: disc inside;
+  margin-top: 8px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+
+.skills-list li {
+  background: #3498db;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
